@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">SpinnerSample</string>
+  <string name="sample_spinner">Spinner with same layout</string>
+  <string name="sample_spinner_dropdown">Spinner with different Dropdown layout</string>
+</resources>

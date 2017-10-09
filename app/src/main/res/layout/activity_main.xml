@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.droidlibs.spinnersample.MainActivity">
+
+  <TextView
+      android:id="@+id/sampleSpinnerText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:text="@string/sample_spinner"
+  />
+  <Spinner
+      android:id="@+id/sampleSpinner"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:minHeight="@dimen/minHeight_spinner"
+      android:layout_marginTop="@dimen/textView_margin"
+      android:backgroundTint="@color/black"
+      android:focusable="true"
+      android:spinnerMode="dropdown"
+      style="@style/Base.Widget.AppCompat.Spinner.Underlined">
+  </Spinner>
+  <TextView
+      android:id="@+id/sampleDropdownSpinnerText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/textView_margin"
+      android:textStyle="bold"
+      android:text="@string/sample_spinner_dropdown"
+  />
+  <Spinner
+      android:id="@+id/sampleDropdownSpinner"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/spinner_padding"
+      android:paddingEnd="@dimen/padding_start_layout"
+      android:backgroundTint="@color/black"
+      style="@style/Base.Widget.AppCompat.Spinner.Underlined">
+  >
+  </Spinner>
+</LinearLayout>
